@@ -4,7 +4,7 @@ broadleaf-starter-kit
 Version 1.1-34p
 ---------------
 
-[![Install](https://raw.github.com/qubell-bazaar/component-skeleton/master/img/install.png)](https://express.qubell.com/applications/upload?metadataUrl=https://github.com/qubell-bazaar/broadleaf-starter-kit/1.1-34p/meta.yml)
+[![Install](https://raw.github.com/qubell-bazaar/component-skeleton/master/img/install.png)](https://express.qubell.com/applications/upload?metadataUrl=https://raw.github.com/qubell-bazaar/broadleaf-starter-kit/gce/meta.yml)
 
 ![](http://www.broadleafcommerce.com/img/broadleaf_logo_white.png)
 ![](http://tomcat.apache.org/images/tomcat-power.gif)
