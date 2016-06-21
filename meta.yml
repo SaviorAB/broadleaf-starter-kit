@@ -3,17 +3,17 @@ kit:
   link: https://github.com/qubell-bazaar/broadleaf-starter-kit
   applications:
     - name: "Broadleaf"
-      manifest: https://raw.github.com/qubell-bazaar/broadleaf-starter-kit/1.1-34p/broadleaf-starter-kit.yml
+      manifest: https://raw.github.com/qubell-bazaar/broadleaf-starter-kit/gce/broadleaf-starter-kit.yml
     - name: "Database"
-      manifest: https://raw.github.com/qubell-bazaar/component-mysql-dev/0.3.0-34p/component-mysql-dev.yml
+      manifest: https://raw.github.com/qubell-bazaar/component-mysql-dev/gce/component-mysql-dev.yml
     - name: "Load Balancer"
-      manifest: https://raw.github.com/qubell-bazaar/component-haproxy/0.2.0-34p/component-haproxy.yml
+      manifest: https://raw.github.com/qubell-bazaar/component-haproxy/gce/component-haproxy.yml
     - name: "Application Server"
-      manifest: https://raw.github.com/qubell-bazaar/component-tomcat-dev/0.3.0-34p/component-tomcat-dev.yml
+      manifest: https://raw.github.com/qubell-bazaar/component-tomcat-dev/gce/component-tomcat-dev.yml
     - name: "Solr Cloud"
-      manifest: https://raw.github.com/qubell-bazaar/component-solr-dev/0.1.0-34p/component-solr-dev.yml
+      manifest: https://raw.github.com/qubell-bazaar/component-solr-dev/gce/component-solr-dev.yml
     - name: "Zookeeper"
-      manifest: https://raw.github.com/qubell-bazaar/component-zookeeper-dev/0.2.0-34p/component-zookeeper-dev.yml
+      manifest: https://raw.github.com/qubell-bazaar/component-zookeeper-dev/gce/component-zookeeper-dev.yml
   provider:
     name: "Qubell"
     link: http://qubell.com

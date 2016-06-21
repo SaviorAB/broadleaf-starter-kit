@@ -9,8 +9,8 @@ application:
     input.app-fork: qubell-bazaar # Broadleaf DemoSite Fork name
     input.app-branch: solr-cloud # solr-green (Branch name in your fork)
     input.app-quantity: 1 # Numbers of hosts with application for "Application Server" Component
-    input.operating-system: {image: "us-east-1/ami-1ba18d72", identity: ec2-user} # image/identity pair for describing Operating system.
-    input.instance-size: "m1.small" # EC2 Instance type 
+    input.operating-system: {image: "ubuntu-1204-precise-v20160516", identity: gce-user} # image/identity pair for describing Operating system.
+    input.instance-size: "g1-small" # EC2 Instance type 
     input.solr-collections: ["https://raw.github.com/qubell-bazaar/DemoSite/solr-cloud/core/src/main/resources/cores/cores.tar.gz"] # Archive with cores for "Solr Cloud" component
     input.solr-version: "4.4.0" # Solr Version
     input.recipe-url: "https://s3.amazonaws.com/qubell-starter-kit-artifacts/qubell-bazaar/broadleaf-starter-kit-cookbooks-stable-fe3ed1f.tar.gz" # Chef Cookbooks Url
