@@ -3,3 +3,5 @@ pyaml
 requests
 testtools
 qubell-api-python-client
+nose
+nose_xunitmp
