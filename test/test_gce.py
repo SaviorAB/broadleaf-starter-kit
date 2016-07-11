@@ -65,9 +65,9 @@ class BroadleafTestCase(BaseComponentTestCase):
     def environment(cls, organization):
         # todo: if used more move to client
         """
-        This is a hack, to replace common cloud account with Amazon Account
+        This is a hack, to replace common cloud account with GCE Account
         :param organization:
-        :return: json with Amazon Account
+        :return: json with GCE Account
         """
         cls.provider = os.environ.get('PROVIDER')
 
